@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74B0C89F1ECBA61200E7E9FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B0C89E1ECBA61200E7E9FD /* AppDelegate.swift */; };
+		74B0C8A11ECBA61200E7E9FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B0C8A01ECBA61200E7E9FD /* ViewController.swift */; };
+		74B0C8A41ECBA61200E7E9FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B0C8A21ECBA61200E7E9FD /* Main.storyboard */; };
+		74B0C8A61ECBA61200E7E9FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B0C8A51ECBA61200E7E9FD /* Assets.xcassets */; };
+		74B0C8A91ECBA61200E7E9FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B0C8A71ECBA61200E7E9FD /* LaunchScreen.storyboard */; };
+		74B0C8B41ECBA61200E7E9FD /* Passover_HagadahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B0C8B31ECBA61200E7E9FD /* Passover_HagadahTests.swift */; };
+		74B0C8BF1ECBA61200E7E9FD /* Passover_HagadahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B0C8BE1ECBA61200E7E9FD /* Passover_HagadahUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74B0C8B01ECBA61200E7E9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B0C8931ECBA61100E7E9FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B0C89A1ECBA61200E7E9FD;
+			remoteInfo = "Passover Hagadah";
+		};
+		74B0C8BB1ECBA61200E7E9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B0C8931ECBA61100E7E9FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B0C89A1ECBA61200E7E9FD;
+			remoteInfo = "Passover Hagadah";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74B0C89B1ECBA61200E7E9FD /* Passover Hagadah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passover Hagadah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B0C89E1ECBA61200E7E9FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74B0C8A01ECBA61200E7E9FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74B0C8A31ECBA61200E7E9FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74B0C8A51ECBA61200E7E9FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74B0C8A81ECBA61200E7E9FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74B0C8AA1ECBA61200E7E9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B0C8AF1ECBA61200E7E9FD /* Passover HagadahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passover HagadahTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B0C8B31ECBA61200E7E9FD /* Passover_HagadahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passover_HagadahTests.swift; sourceTree = "<group>"; };
+		74B0C8B51ECBA61200E7E9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B0C8BA1ECBA61200E7E9FD /* Passover HagadahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passover HagadahUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B0C8BE1ECBA61200E7E9FD /* Passover_HagadahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passover_HagadahUITests.swift; sourceTree = "<group>"; };
+		74B0C8C01ECBA61200E7E9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74B0C8981ECBA61200E7E9FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B0C8AC1ECBA61200E7E9FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B0C8B71ECBA61200E7E9FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74B0C8921ECBA61100E7E9FD = {
+			isa = PBXGroup;
+			children = (
+				74B0C89D1ECBA61200E7E9FD /* Passover Hagadah */,
+				74B0C8B21ECBA61200E7E9FD /* Passover HagadahTests */,
+				74B0C8BD1ECBA61200E7E9FD /* Passover HagadahUITests */,
+				74B0C89C1ECBA61200E7E9FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74B0C89C1ECBA61200E7E9FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74B0C89B1ECBA61200E7E9FD /* Passover Hagadah.app */,
+				74B0C8AF1ECBA61200E7E9FD /* Passover HagadahTests.xctest */,
+				74B0C8BA1ECBA61200E7E9FD /* Passover HagadahUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74B0C89D1ECBA61200E7E9FD /* Passover Hagadah */ = {
+			isa = PBXGroup;
+			children = (
+				74B0C89E1ECBA61200E7E9FD /* AppDelegate.swift */,
+				74B0C8A01ECBA61200E7E9FD /* ViewController.swift */,
+				74B0C8A21ECBA61200E7E9FD /* Main.storyboard */,
+				74B0C8A51ECBA61200E7E9FD /* Assets.xcassets */,
+				74B0C8A71ECBA61200E7E9FD /* LaunchScreen.storyboard */,
+				74B0C8AA1ECBA61200E7E9FD /* Info.plist */,
+			);
+			path = "Passover Hagadah";
+			sourceTree = "<group>";
+		};
+		74B0C8B21ECBA61200E7E9FD /* Passover HagadahTests */ = {
+			isa = PBXGroup;
+			children = (
+				74B0C8B31ECBA61200E7E9FD /* Passover_HagadahTests.swift */,
+				74B0C8B51ECBA61200E7E9FD /* Info.plist */,
+			);
+			path = "Passover HagadahTests";
+			sourceTree = "<group>";
+		};
+		74B0C8BD1ECBA61200E7E9FD /* Passover HagadahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74B0C8BE1ECBA61200E7E9FD /* Passover_HagadahUITests.swift */,
+				74B0C8C01ECBA61200E7E9FD /* Info.plist */,
+			);
+			path = "Passover HagadahUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74B0C89A1ECBA61200E7E9FD /* Passover Hagadah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B0C8C31ECBA61200E7E9FD /* Build configuration list for PBXNativeTarget "Passover Hagadah" */;
+			buildPhases = (
+				74B0C8971ECBA61200E7E9FD /* Sources */,
+				74B0C8981ECBA61200E7E9FD /* Frameworks */,
+				74B0C8991ECBA61200E7E9FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Passover Hagadah";
+			productName = "Passover Hagadah";
+			productReference = 74B0C89B1ECBA61200E7E9FD /* Passover Hagadah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74B0C8AE1ECBA61200E7E9FD /* Passover HagadahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B0C8C61ECBA61200E7E9FD /* Build configuration list for PBXNativeTarget "Passover HagadahTests" */;
+			buildPhases = (
+				74B0C8AB1ECBA61200E7E9FD /* Sources */,
+				74B0C8AC1ECBA61200E7E9FD /* Frameworks */,
+				74B0C8AD1ECBA61200E7E9FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B0C8B11ECBA61200E7E9FD /* PBXTargetDependency */,
+			);
+			name = "Passover HagadahTests";
+			productName = "Passover HagadahTests";
+			productReference = 74B0C8AF1ECBA61200E7E9FD /* Passover HagadahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74B0C8B91ECBA61200E7E9FD /* Passover HagadahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B0C8C91ECBA61200E7E9FD /* Build configuration list for PBXNativeTarget "Passover HagadahUITests" */;
+			buildPhases = (
+				74B0C8B61ECBA61200E7E9FD /* Sources */,
+				74B0C8B71ECBA61200E7E9FD /* Frameworks */,
+				74B0C8B81ECBA61200E7E9FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B0C8BC1ECBA61200E7E9FD /* PBXTargetDependency */,
+			);
+			name = "Passover HagadahUITests";
+			productName = "Passover HagadahUITests";
+			productReference = 74B0C8BA1ECBA61200E7E9FD /* Passover HagadahUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74B0C8931ECBA61100E7E9FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Shana;
+				TargetAttributes = {
+					74B0C89A1ECBA61200E7E9FD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KBMQM6CY4W;
+						ProvisioningStyle = Automatic;
+					};
+					74B0C8AE1ECBA61200E7E9FD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KBMQM6CY4W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74B0C89A1ECBA61200E7E9FD;
+					};
+					74B0C8B91ECBA61200E7E9FD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KBMQM6CY4W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74B0C89A1ECBA61200E7E9FD;
+					};
+				};
+			};
+			buildConfigurationList = 74B0C8961ECBA61100E7E9FD /* Build configuration list for PBXProject "Passover Hagadah" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74B0C8921ECBA61100E7E9FD;
+			productRefGroup = 74B0C89C1ECBA61200E7E9FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74B0C89A1ECBA61200E7E9FD /* Passover Hagadah */,
+				74B0C8AE1ECBA61200E7E9FD /* Passover HagadahTests */,
+				74B0C8B91ECBA61200E7E9FD /* Passover HagadahUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74B0C8991ECBA61200E7E9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B0C8A91ECBA61200E7E9FD /* LaunchScreen.storyboard in Resources */,
+				74B0C8A61ECBA61200E7E9FD /* Assets.xcassets in Resources */,
+				74B0C8A41ECBA61200E7E9FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B0C8AD1ECBA61200E7E9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B0C8B81ECBA61200E7E9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74B0C8971ECBA61200E7E9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B0C8A11ECBA61200E7E9FD /* ViewController.swift in Sources */,
+				74B0C89F1ECBA61200E7E9FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B0C8AB1ECBA61200E7E9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B0C8B41ECBA61200E7E9FD /* Passover_HagadahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B0C8B61ECBA61200E7E9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B0C8BF1ECBA61200E7E9FD /* Passover_HagadahUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74B0C8B11ECBA61200E7E9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B0C89A1ECBA61200E7E9FD /* Passover Hagadah */;
+			targetProxy = 74B0C8B01ECBA61200E7E9FD /* PBXContainerItemProxy */;
+		};
+		74B0C8BC1ECBA61200E7E9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B0C89A1ECBA61200E7E9FD /* Passover Hagadah */;
+			targetProxy = 74B0C8BB1ECBA61200E7E9FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74B0C8A21ECBA61200E7E9FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B0C8A31ECBA61200E7E9FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74B0C8A71ECBA61200E7E9FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B0C8A81ECBA61200E7E9FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74B0C8C11ECBA61200E7E9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		74B0C8C21ECBA61200E7E9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74B0C8C41ECBA61200E7E9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KBMQM6CY4W;
+				INFOPLIST_FILE = "Passover Hagadah/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shana.Passover-Hagadah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		74B0C8C51ECBA61200E7E9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KBMQM6CY4W;
+				INFOPLIST_FILE = "Passover Hagadah/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shana.Passover-Hagadah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		74B0C8C71ECBA61200E7E9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KBMQM6CY4W;
+				INFOPLIST_FILE = "Passover HagadahTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shana.Passover-HagadahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passover Hagadah.app/Passover Hagadah";
+			};
+			name = Debug;
+		};
+		74B0C8C81ECBA61200E7E9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KBMQM6CY4W;
+				INFOPLIST_FILE = "Passover HagadahTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shana.Passover-HagadahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passover Hagadah.app/Passover Hagadah";
+			};
+			name = Release;
+		};
+		74B0C8CA1ECBA61200E7E9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KBMQM6CY4W;
+				INFOPLIST_FILE = "Passover HagadahUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shana.Passover-HagadahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Passover Hagadah";
+			};
+			name = Debug;
+		};
+		74B0C8CB1ECBA61200E7E9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KBMQM6CY4W;
+				INFOPLIST_FILE = "Passover HagadahUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shana.Passover-HagadahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Passover Hagadah";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74B0C8961ECBA61100E7E9FD /* Build configuration list for PBXProject "Passover Hagadah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B0C8C11ECBA61200E7E9FD /* Debug */,
+				74B0C8C21ECBA61200E7E9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B0C8C31ECBA61200E7E9FD /* Build configuration list for PBXNativeTarget "Passover Hagadah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B0C8C41ECBA61200E7E9FD /* Debug */,
+				74B0C8C51ECBA61200E7E9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74B0C8C61ECBA61200E7E9FD /* Build configuration list for PBXNativeTarget "Passover HagadahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B0C8C71ECBA61200E7E9FD /* Debug */,
+				74B0C8C81ECBA61200E7E9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74B0C8C91ECBA61200E7E9FD /* Build configuration list for PBXNativeTarget "Passover HagadahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B0C8CA1ECBA61200E7E9FD /* Debug */,
+				74B0C8CB1ECBA61200E7E9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74B0C8931ECBA61100E7E9FD /* Project object */;
+}
