@@ -1,0 +1,47 @@
+body{
+	background-image: url(manishtana_hebrew.jpg);
+	background-size: cover;
+	background-color:  #f0ece1;
+	background-attachment: fixed;
+	margin:0px;
+}
+
+
+#hebrew{
+	width: 20%;
+	height: 340px;
+	position: absolute;
+	top: 20px;
+}
+
+#english{
+	width: 20%;
+	height: 340px;
+	position: absolute;
+	top: 360px;
+}
+
+#spanish{
+	width: 20%;
+	height: 290px;
+	position: absolute;
+	top: 25px;
+	left: 800px;
+}
+
+#french{
+	width: 20%;
+	height: 225px;
+	position: absolute;
+	top: 305px;
+	left: 800px;
+}
+
+#yiddish{
+	width: 20%;
+	height: 200px;
+	position: absolute;
+	top: 520px;
+	left: 800px;
+}
+

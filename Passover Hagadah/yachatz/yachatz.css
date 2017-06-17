@@ -1,0 +1,113 @@
+body{
+	background-image: url(matza.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: inline-block;
+	width: 950px;
+	height: 710px;
+	margin: 0px;
+}
+*:not(input):not(textarea) {
+    -webkit-user-select: none; /* disable selection/Copy of UIWebView */
+    -webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
+    
+}
+.fifth{
+	width: 20%;
+	height: 700px;
+	float: left;
+	position: absolute;
+	top: 0%;
+}
+
+#a{
+	position: absolute;
+	left: 0%;
+}
+
+#b{
+	position: absolute;
+	left: 20%;
+}
+
+#c{
+	position: absolute;
+	left: 40%;
+}
+
+#d{
+	position: absolute;
+	left: 60%;
+}
+
+#e{
+	position: absolute;
+	left: 80%;
+}
+
+#title{
+	width: 100%;	
+}
+
+#title img{
+	width: 54%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	margin-top: -5%;
+	position: relative;
+	left: -5%;
+
+}
+
+#words{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 11%;
+}
+
+#words img{
+	width: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+.bottom{
+	height: 30%;
+	width: 100%;
+	margin-top: -15%;
+}
+#lower{
+	height: 100%;
+	width: 20%;
+	background-image: url(press.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	z-index: 10;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#back{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#back img{
+	width: 8%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	margin-top: -7%;
+	visibility: hidden;
+}
+

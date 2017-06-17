@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html >
+<head>
+ <meta charset="UTF-8">
+ <title>יחץ</title>
+
+ <link rel="stylesheet" href="yachatz.css">
+</head>
+
+<body id="body">
+
+ <div id="words">
+  <img src="yachatztext.png">
+ </div>
+ <div id="title">
+  <img  src="yachatz.png">
+ </div>
+ <div class="bottom">
+  <div id="lower">
+  </div>
+ </div>
+ <div id="container">
+  <div id="a" class="fifth"></div>
+  <div id="b" class="fifth"></div>
+  <div id="c" class="fifth"></div>
+  <div id="d" class="fifth"></div>
+  <div id="e" class="fifth"></div>
+ </div>
+
+ <script language="javascript">
+
+  document.getElementById("a").addEventListener("click", function() {
+    document.getElementById("body").style.backgroundImage = "url(1.jpg)";
+  }, false);
+  document.getElementById("a").addEventListener("click", function() {
+   document.getElementById("lower").style.backgroundImage = "url(back.png)";
+ }, false);
+
+  document.getElementById("b").addEventListener("click", function() {
+    document.getElementById("body").style.backgroundImage = "url(2.jpg)";
+  }, false);
+  document.getElementById("b").addEventListener("click", function() {
+   document.getElementById("lower").style.backgroundImage = "url(back.png)";
+ }, false);
+
+  document.getElementById("c").addEventListener("click", function() {
+    document.getElementById("body").style.backgroundImage = "url(3.jpg)";
+  }, false);
+  document.getElementById("c").addEventListener("click", function() {
+   document.getElementById("lower").style.backgroundImage = "url(back.png)";
+ }, false);
+
+   document.getElementById("d").addEventListener("click", function() {
+    document.getElementById("body").style.backgroundImage = "url(4.jpg)";
+  }, false);
+  document.getElementById("d").addEventListener("click", function() {
+   document.getElementById("lower").style.backgroundImage = "url(back.png)";
+ }, false);
+
+   document.getElementById("e").addEventListener("click", function() {
+    document.getElementById("body").style.backgroundImage = "url(5.jpg)";
+  }, false);
+  document.getElementById("e").addEventListener("click", function() {
+   document.getElementById("lower").style.backgroundImage = "url(back.png)";
+ }, false);
+
+   document.getElementById("lower").addEventListener("click", function() {
+   document.getElementById("lower").style.backgroundImage = "url(press.png)";
+ }, false);
+
+    document.getElementById("lower").addEventListener("click", function() {
+   document.getElementById("body").style.backgroundImage = "url(matza.gif)";
+ }, false);
+
+ </script>
+
+</body>

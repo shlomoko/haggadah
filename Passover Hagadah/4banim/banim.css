@@ -1,0 +1,72 @@
+body{
+	background-image: url(4sons.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#smart{
+	width: 16%;
+	height: 200px;
+	position: absolute;
+	top: 250px;
+	left: 520px;
+}
+
+#bad{
+	width: 16%;
+	height: 190px;
+	position: absolute;
+	top: 250px;
+	left: 360px;
+}
+
+
+#tam{
+	width: 15%;
+	height: 135px;
+	position: absolute;
+	top: 450px;
+	left: 520px;
+}
+
+#ask{
+	width: 16%;
+	height: 160px;
+	position: absolute;
+	top: 430px;
+	left: 360px;
+}
+
+img{
+	width: 600%;
+	float: right;
+	visibility: hidden;
+}
+
+#smart img {
+	position: relative;
+	top: -250px;
+	left: 295px;
+}
+
+#bad img {
+	position: relative;
+	top: -215px;
+	left: 420px;
+}
+
+#ask img {
+	position: relative;
+	top: -460px;
+	left: 430px;
+}
+
+#tam img {
+	position: relative;
+	top: -400px;
+	left: 295px;
+}
+
+.son:active > img{
+	visibility: visible;
+}

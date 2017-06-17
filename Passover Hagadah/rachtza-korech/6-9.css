@@ -1,0 +1,172 @@
+body{
+	background-image: url(6-9.jpg););
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+*:not(input):not(textarea) {
+    -webkit-user-select: none; /* disable selection/Copy of UIWebView */
+    -webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
+}
+
+img{
+	width: 85%;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.popup img{
+	width: 150%;
+	float: right;
+	visibility: hidden;
+
+}
+
+.popup:active{
+	z-index: 10;
+}
+.popup:active > img{
+	visibility: visible;
+}
+
+#zaken{
+	width: 25%;
+	height: 300px;
+	background-image: url(zaken-1.png);
+	background-size: cover;
+	position: fixed;
+	top: 35px; 
+	left: 30px;
+}
+
+#zaken img{
+	width: 100%;
+	position: absolute;
+	top: 150px;
+}
+
+#lettuce{
+	width: 15%;
+	height: 310px;
+	background-image: url(lettuce-1.png);
+	background-size: cover;
+	position: fixed;
+	top: 39%;
+	left: 30px;
+}
+
+#lettuce img{
+	width: 170%;
+	position: absolute;
+	top: -170px;
+}
+
+#matza{
+	width: 13%;
+	height: 300px;
+	background-image: url(matza-1.png);
+	background-size: cover;
+	position: fixed;
+	top: 270px; 
+	left: 165px;
+}
+
+#matza:active{
+	background-image: url(matza-2.png);
+}
+
+#salt{
+	width: 9%;
+	height: 140px;
+	background-image: url(salt-1.png);
+	background-size: cover;
+	position: fixed;
+	top: 560px; 
+	left: 40px;
+}
+
+#salt:active{
+	background-image: url(salt-2.gif);
+}
+
+#charoset{
+	width: 15%;
+	height: 135px;
+	background-image: url(rcharoset-1.png);
+	background-size: cover;
+	position: fixed;
+	top: 555px; 
+	left: 140px;
+}
+
+#charoset:active{
+	background-image: url(rcharoset-2.png);
+}
+
+#spoon{
+	width: 29%;
+	height: 325px;
+	background-image: url(spoon-1.png);
+	background-size: cover;
+	position: fixed;
+	top: 45px; 
+	left: 655px;
+}
+
+#spoon img{
+	width: 95%;
+	position: absolute;
+	top: 230px;
+	left: 20px;
+}
+
+#maror{
+	width: 20%;
+	height: 325px;
+	background-image: url(maror-1.png);
+	background-size: cover;
+	position: fixed;
+	top: 10px; 
+	left: 755px;
+}
+
+#maror:active{
+	background-image: url(maror-2.gif);
+}
+
+#soft{
+	width: 26%;
+	height: 310px;
+	background-image: url(soft-1.png);
+	background-size: cover;
+	position: fixed;
+	top: 330px; 
+	left: 670px;
+    
+}
+
+#soft img{
+	width: 90%;
+	position: absolute;
+	top: 80px;
+	left: 20px;
+}
+
+#cup{
+	width: 24%;
+	height: 215px;
+	background-image: url(cup-1.png);
+	background-size: cover;
+	position: fixed;
+	top: 65%;
+	left: 675px;
+}
+
+#cup img{
+	width: 95%;
+	position: absolute;
+	top: -88%;
+}

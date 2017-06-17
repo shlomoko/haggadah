@@ -1,0 +1,6 @@
+framework module Pods_Passover_HagadahTests {
+  umbrella header "Pods-Passover HagadahTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

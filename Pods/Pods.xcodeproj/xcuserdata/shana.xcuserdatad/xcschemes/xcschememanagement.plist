@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Passover Hagadah.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Passover HagadahTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Passover HagadahUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyGif.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1F08E1CF015CD2F80798CD7734362F84</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>756B296F4D535DC62FB5D46C5E107877</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A74F3BF7D7F5FD1CDDCAEBB0FB6891A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D670B2EFA35AF1AD01FE5C0A2D6E5EED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

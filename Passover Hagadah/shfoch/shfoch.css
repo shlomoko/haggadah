@@ -1,0 +1,35 @@
+body{
+	background-image: url(shfoch.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+*:not(input):not(textarea) {
+    -webkit-user-select: none; /* disable selection/Copy of UIWebView */
+    -webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
+    
+}
+
+#container{
+	width: 100%;
+	height: 500px;
+}
+
+#cup{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 48%;
+	width: 30%;
+	height: 90%;
+	background-image: url(shfochcup.gif);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#cup:active{
+    background-image: url(spill.gif);
+    z-index: 10;
+}

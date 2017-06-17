@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053DA3683A64634CE87F23BBCC67AA29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		224202D2945B0B6E55BC3423B9C07863 /* Pods-Passover Hagadah-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3CB776BFB42C63C31AB26D01D5B343 /* Pods-Passover Hagadah-dummy.m */; };
+		354A08249DBC049EFC264108F1862688 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D17E4C69C8FD43FCFEC033BDF588762 /* UIImageView+SwiftyGif.swift */; };
+		3BA74CD7E8DDDF9A344C47F0451754B7 /* Pods-Passover HagadahTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3CCB6E565C33648640CDBD8AE9672CA /* Pods-Passover HagadahTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DCF17BF4A096FBBFBB554C9A4153835 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = AECA5800E34AB159B96FB033C505D504 /* Info.plist */; };
+		44DC78FE6529F7594FFDF42C507EC26A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7FFFD6166FD69DF095375F47D69FFF7B /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EB0DCCA7744D85766EC4C06FE9021E /* UIImage+SwiftyGif.swift */; };
+		832517F0E440C014A1A226146666F18A /* Pods-Passover HagadahUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7A71F753B739D0A94358DA305BE914 /* Pods-Passover HagadahUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A39A5F057F5126E4DA8F388D6D03EDB3 /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3923679871D476A1D85A269192F88F /* SwiftyGif-dummy.m */; };
+		BA3FAC5963AD05712D4F9DA70120A7E3 /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF37DC14285E69129712584A0E1DA38 /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2FDD931346F1770D971C5147DD09DCD /* Pods-Passover HagadahUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE75E631E2ABFE57DC09A9A0033334 /* Pods-Passover HagadahUITests-dummy.m */; };
+		C9FAFAA2262B39D65ABDE5CAEF01FD17 /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DDA4B449CD1276127F121F222E3991 /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC77E3302C414F69C7FC8915D8862A47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CD1D909810664C9BA0DF4124631E554E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CE16177A8BDDE9280915AD1DC30FB378 /* Pods-Passover Hagadah-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F7A7EBDF8423D10F88DE74CBA32D18 /* Pods-Passover Hagadah-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7BD4B548A4887D5D9F4B9849732A6E5 /* Pods-Passover HagadahTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A29D845304F55F26085E245890E3768E /* Pods-Passover HagadahTests-dummy.m */; };
+		F1E9BB37FC07EC24FF4B101372F79368 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFDCF9F6DB741A3EA518F439C2A1A1 /* SwiftyGifManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96B7E7431BB2B9FF73E95796F8887909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 756B296F4D535DC62FB5D46C5E107877;
+			remoteInfo = SwiftyGif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08BE6B50DE4670F953CC8365423038DC /* Pods-Passover Hagadah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Passover Hagadah.release.xcconfig"; sourceTree = "<group>"; };
+		0BB820705B2C324154D48689E7F08F97 /* Pods-Passover Hagadah-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Passover Hagadah-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E998FFD1C4016E82015EC2760712926 /* Pods-Passover HagadahTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Passover HagadahTests.modulemap"; sourceTree = "<group>"; };
+		16349AD8E1ADB820E25E2E6040E551CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3CB776BFB42C63C31AB26D01D5B343 /* Pods-Passover Hagadah-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Passover Hagadah-dummy.m"; sourceTree = "<group>"; };
+		1AAFE8BDB198F385E2461A2A5D1B1A0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C294833420C2207C01F02FA38234AAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2BE305C3DE41B7AF6D5AFC2F1D8A7D /* Pods-Passover HagadahTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Passover HagadahTests-frameworks.sh"; sourceTree = "<group>"; };
+		32FAF5ADCD53F44DB087015FB986E365 /* Pods-Passover HagadahUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Passover HagadahUITests.modulemap"; sourceTree = "<group>"; };
+		3481812D306B3CD664379B05AF02ABBC /* Pods_Passover_HagadahTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Passover_HagadahTests.framework; path = "Pods-Passover HagadahTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CFDCF9F6DB741A3EA518F439C2A1A1 /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
+		3852FFDEFCD4FA690BA38F1F4C447CA5 /* Pods_Passover_HagadahUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Passover_HagadahUITests.framework; path = "Pods-Passover HagadahUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E26AC2D71709B28F945DC879DBCD0E /* Pods-Passover HagadahTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Passover HagadahTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D17E4C69C8FD43FCFEC033BDF588762 /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		5F936776F82AC97806838F4AD5AC546C /* Pods-Passover HagadahTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Passover HagadahTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		64BE75E631E2ABFE57DC09A9A0033334 /* Pods-Passover HagadahUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Passover HagadahUITests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C7A71F753B739D0A94358DA305BE914 /* Pods-Passover HagadahUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Passover HagadahUITests-umbrella.h"; sourceTree = "<group>"; };
+		726993E2C54E7BA53A531A8DA4FF8965 /* Pods-Passover Hagadah-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Passover Hagadah-frameworks.sh"; sourceTree = "<group>"; };
+		77599DC5F67291CFD242D3A5D6FB7E71 /* SwiftyGif.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.xcconfig; sourceTree = "<group>"; };
+		78F7A7EBDF8423D10F88DE74CBA32D18 /* Pods-Passover Hagadah-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Passover Hagadah-umbrella.h"; sourceTree = "<group>"; };
+		7D3923679871D476A1D85A269192F88F /* SwiftyGif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGif-dummy.m"; sourceTree = "<group>"; };
+		938EF5082BDE1948E051A3EC12988A69 /* Pods-Passover HagadahUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Passover HagadahUITests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C1BE5C21D50CE6CB35EBF29E442B3F9 /* Pods-Passover HagadahTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Passover HagadahTests-resources.sh"; sourceTree = "<group>"; };
+		9E0CF70F70CB57A0AC345246E3F0E658 /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
+		A15C37157673E5A7416EB019979855F8 /* Pods-Passover Hagadah-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Passover Hagadah-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A29D845304F55F26085E245890E3768E /* Pods-Passover HagadahTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Passover HagadahTests-dummy.m"; sourceTree = "<group>"; };
+		A566CF2FEB73287B45EF327427F6682E /* Pods-Passover HagadahUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Passover HagadahUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A81E15081AEE5B818FD6F507A4437C5E /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyGif.framework; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA35AFD4CE58D3FBDA395AA2E6611916 /* Pods_Passover_Hagadah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Passover_Hagadah.framework; path = "Pods-Passover Hagadah.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE92497BD1AACCAD09FE9148C2133278 /* Pods-Passover HagadahUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Passover HagadahUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AECA5800E34AB159B96FB033C505D504 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwiftyGif/Info.plist; sourceTree = "<group>"; };
+		B4DDA4B449CD1276127F121F222E3991 /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
+		BB807A436138D75B6317406377CDF359 /* Pods-Passover HagadahUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Passover HagadahUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C381351F4F4B98C629C148E1D610ADF7 /* Pods-Passover Hagadah.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Passover Hagadah.modulemap"; sourceTree = "<group>"; };
+		C3CCB6E565C33648640CDBD8AE9672CA /* Pods-Passover HagadahTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Passover HagadahTests-umbrella.h"; sourceTree = "<group>"; };
+		C83638583840ECC97C5B230C7BFD4934 /* Pods-Passover HagadahUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Passover HagadahUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB42C13660DB5D5A9DC32D608CB36A1B /* SwiftyGif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyGif.modulemap; sourceTree = "<group>"; };
+		D8EB0DCCA7744D85766EC4C06FE9021E /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		DAF37DC14285E69129712584A0E1DA38 /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
+		DC6BB299A9F4CEB457EC9607B1DC34DE /* Pods-Passover HagadahTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Passover HagadahTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE1851B8B90A92471068E967B9AFF974 /* Pods-Passover HagadahTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Passover HagadahTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF78BF83F3CEB474D2AE4120673D269F /* Pods-Passover Hagadah-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Passover Hagadah-resources.sh"; sourceTree = "<group>"; };
+		EABD300F383C9DDA63A96CC939DA3185 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99E6DD700D96FC3DEF75EBEE455090F /* Pods-Passover HagadahUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Passover HagadahUITests-resources.sh"; sourceTree = "<group>"; };
+		FFCC93AD920E2B3C5BE280903A23E19B /* Pods-Passover Hagadah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Passover Hagadah.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AB07327BE36F30064B2AA68BCD0822A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1D909810664C9BA0DF4124631E554E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3349E5B9EE9B7FDBC12F5D571E76FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC77E3302C414F69C7FC8915D8862A47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC27660D296DD8AC039912E353AF7B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053DA3683A64634CE87F23BBCC67AA29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43D7A44837AC5B3D48793C832CD605F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DC78FE6529F7594FFDF42C507EC26A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19825D10D4DD9653E417C005EBE50363 /* SwiftyGif */ = {
+			isa = PBXGroup;
+			children = (
+				AECA5800E34AB159B96FB033C505D504 /* Info.plist */,
+				B4DDA4B449CD1276127F121F222E3991 /* SwiftyGif.h */,
+				37CFDCF9F6DB741A3EA518F439C2A1A1 /* SwiftyGifManager.swift */,
+				D8EB0DCCA7744D85766EC4C06FE9021E /* UIImage+SwiftyGif.swift */,
+				5D17E4C69C8FD43FCFEC033BDF588762 /* UIImageView+SwiftyGif.swift */,
+				58D53C60F5974AB15FB53FD173B3F75C /* Support Files */,
+			);
+			name = SwiftyGif;
+			path = SwiftyGif;
+			sourceTree = "<group>";
+		};
+		210AA4AED6FE687008C55549B72BFB8A /* Pods-Passover HagadahTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C294833420C2207C01F02FA38234AAB /* Info.plist */,
+				0E998FFD1C4016E82015EC2760712926 /* Pods-Passover HagadahTests.modulemap */,
+				DC6BB299A9F4CEB457EC9607B1DC34DE /* Pods-Passover HagadahTests-acknowledgements.markdown */,
+				5F936776F82AC97806838F4AD5AC546C /* Pods-Passover HagadahTests-acknowledgements.plist */,
+				A29D845304F55F26085E245890E3768E /* Pods-Passover HagadahTests-dummy.m */,
+				2C2BE305C3DE41B7AF6D5AFC2F1D8A7D /* Pods-Passover HagadahTests-frameworks.sh */,
+				9C1BE5C21D50CE6CB35EBF29E442B3F9 /* Pods-Passover HagadahTests-resources.sh */,
+				C3CCB6E565C33648640CDBD8AE9672CA /* Pods-Passover HagadahTests-umbrella.h */,
+				46E26AC2D71709B28F945DC879DBCD0E /* Pods-Passover HagadahTests.debug.xcconfig */,
+				DE1851B8B90A92471068E967B9AFF974 /* Pods-Passover HagadahTests.release.xcconfig */,
+			);
+			name = "Pods-Passover HagadahTests";
+			path = "Target Support Files/Pods-Passover HagadahTests";
+			sourceTree = "<group>";
+		};
+		2F2FFA51CFCFEF1EF4E071D90A697DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA35AFD4CE58D3FBDA395AA2E6611916 /* Pods_Passover_Hagadah.framework */,
+				3481812D306B3CD664379B05AF02ABBC /* Pods_Passover_HagadahTests.framework */,
+				3852FFDEFCD4FA690BA38F1F4C447CA5 /* Pods_Passover_HagadahUITests.framework */,
+				A81E15081AEE5B818FD6F507A4437C5E /* SwiftyGif.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32689952BD79454E7906A9505BD48B44 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98E60FA7F724550AAC1323CCDC9E1B2D /* Pods-Passover Hagadah */,
+				210AA4AED6FE687008C55549B72BFB8A /* Pods-Passover HagadahTests */,
+				3F8CE1F854F83C9CD853B8E734CC692B /* Pods-Passover HagadahUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3F8CE1F854F83C9CD853B8E734CC692B /* Pods-Passover HagadahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AAFE8BDB198F385E2461A2A5D1B1A0F /* Info.plist */,
+				32FAF5ADCD53F44DB087015FB986E365 /* Pods-Passover HagadahUITests.modulemap */,
+				A566CF2FEB73287B45EF327427F6682E /* Pods-Passover HagadahUITests-acknowledgements.markdown */,
+				AE92497BD1AACCAD09FE9148C2133278 /* Pods-Passover HagadahUITests-acknowledgements.plist */,
+				64BE75E631E2ABFE57DC09A9A0033334 /* Pods-Passover HagadahUITests-dummy.m */,
+				938EF5082BDE1948E051A3EC12988A69 /* Pods-Passover HagadahUITests-frameworks.sh */,
+				F99E6DD700D96FC3DEF75EBEE455090F /* Pods-Passover HagadahUITests-resources.sh */,
+				6C7A71F753B739D0A94358DA305BE914 /* Pods-Passover HagadahUITests-umbrella.h */,
+				C83638583840ECC97C5B230C7BFD4934 /* Pods-Passover HagadahUITests.debug.xcconfig */,
+				BB807A436138D75B6317406377CDF359 /* Pods-Passover HagadahUITests.release.xcconfig */,
+			);
+			name = "Pods-Passover HagadahUITests";
+			path = "Target Support Files/Pods-Passover HagadahUITests";
+			sourceTree = "<group>";
+		};
+		58D53C60F5974AB15FB53FD173B3F75C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16349AD8E1ADB820E25E2E6040E551CF /* Info.plist */,
+				CB42C13660DB5D5A9DC32D608CB36A1B /* SwiftyGif.modulemap */,
+				77599DC5F67291CFD242D3A5D6FB7E71 /* SwiftyGif.xcconfig */,
+				7D3923679871D476A1D85A269192F88F /* SwiftyGif-dummy.m */,
+				9E0CF70F70CB57A0AC345246E3F0E658 /* SwiftyGif-prefix.pch */,
+				DAF37DC14285E69129712584A0E1DA38 /* SwiftyGif-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyGif";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FC21277D0D953B13BEE5EB25881A9C6A /* Pods */,
+				2F2FFA51CFCFEF1EF4E071D90A697DC8 /* Products */,
+				32689952BD79454E7906A9505BD48B44 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98E60FA7F724550AAC1323CCDC9E1B2D /* Pods-Passover Hagadah */ = {
+			isa = PBXGroup;
+			children = (
+				EABD300F383C9DDA63A96CC939DA3185 /* Info.plist */,
+				C381351F4F4B98C629C148E1D610ADF7 /* Pods-Passover Hagadah.modulemap */,
+				A15C37157673E5A7416EB019979855F8 /* Pods-Passover Hagadah-acknowledgements.markdown */,
+				0BB820705B2C324154D48689E7F08F97 /* Pods-Passover Hagadah-acknowledgements.plist */,
+				1A3CB776BFB42C63C31AB26D01D5B343 /* Pods-Passover Hagadah-dummy.m */,
+				726993E2C54E7BA53A531A8DA4FF8965 /* Pods-Passover Hagadah-frameworks.sh */,
+				DF78BF83F3CEB474D2AE4120673D269F /* Pods-Passover Hagadah-resources.sh */,
+				78F7A7EBDF8423D10F88DE74CBA32D18 /* Pods-Passover Hagadah-umbrella.h */,
+				FFCC93AD920E2B3C5BE280903A23E19B /* Pods-Passover Hagadah.debug.xcconfig */,
+				08BE6B50DE4670F953CC8365423038DC /* Pods-Passover Hagadah.release.xcconfig */,
+			);
+			name = "Pods-Passover Hagadah";
+			path = "Target Support Files/Pods-Passover Hagadah";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FC21277D0D953B13BEE5EB25881A9C6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19825D10D4DD9653E417C005EBE50363 /* SwiftyGif */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AE7B780F9C7E56DDA1BC0CF2E19ABA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA74CD7E8DDDF9A344C47F0451754B7 /* Pods-Passover HagadahTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8A291DC6A86C9B3714F68BB2481BAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE16177A8BDDE9280915AD1DC30FB378 /* Pods-Passover Hagadah-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC39CDD519750BA8E64E0F8DC010F6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832517F0E440C014A1A226146666F18A /* Pods-Passover HagadahUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF26F83C36E69B7B43D6BD5FBF6035CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3FAC5963AD05712D4F9DA70120A7E3 /* SwiftyGif-umbrella.h in Headers */,
+				C9FAFAA2262B39D65ABDE5CAEF01FD17 /* SwiftyGif.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F08E1CF015CD2F80798CD7734362F84 /* Pods-Passover HagadahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD54EEA7B7B3010B01090502777ABDD7 /* Build configuration list for PBXNativeTarget "Pods-Passover HagadahTests" */;
+			buildPhases = (
+				63E34C24A6A05275A0FAAA94DDCC7F19 /* Sources */,
+				E43D7A44837AC5B3D48793C832CD605F /* Frameworks */,
+				0AE7B780F9C7E56DDA1BC0CF2E19ABA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Passover HagadahTests";
+			productName = "Pods-Passover HagadahTests";
+			productReference = 3481812D306B3CD664379B05AF02ABBC /* Pods_Passover_HagadahTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		756B296F4D535DC62FB5D46C5E107877 /* SwiftyGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B9C13B2828CB58C6EBF954E2DF213F0 /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
+			buildPhases = (
+				B81F6CD1A5BD1110A8B6DF2B0AE2A0FD /* Sources */,
+				7AB07327BE36F30064B2AA68BCD0822A /* Frameworks */,
+				DF26F83C36E69B7B43D6BD5FBF6035CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyGif;
+			productName = SwiftyGif;
+			productReference = A81E15081AEE5B818FD6F507A4437C5E /* SwiftyGif.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A74F3BF7D7F5FD1CDDCAEBB0FB6891A4 /* Pods-Passover Hagadah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A182B099DBF858576D8F3DAB08B8A10F /* Build configuration list for PBXNativeTarget "Pods-Passover Hagadah" */;
+			buildPhases = (
+				6AEA4A946377A76D30A2D177FBD36E12 /* Sources */,
+				BC27660D296DD8AC039912E353AF7B04 /* Frameworks */,
+				2C8A291DC6A86C9B3714F68BB2481BAF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6718A439AFA392A9C1C74435DBC7588 /* PBXTargetDependency */,
+			);
+			name = "Pods-Passover Hagadah";
+			productName = "Pods-Passover Hagadah";
+			productReference = AA35AFD4CE58D3FBDA395AA2E6611916 /* Pods_Passover_Hagadah.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D670B2EFA35AF1AD01FE5C0A2D6E5EED /* Pods-Passover HagadahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4A761827C10F6FCDF4994085E958EB /* Build configuration list for PBXNativeTarget "Pods-Passover HagadahUITests" */;
+			buildPhases = (
+				DE5A626902505EAB6241672566F065B2 /* Sources */,
+				B3349E5B9EE9B7FDBC12F5D571E76FAD /* Frameworks */,
+				6FC39CDD519750BA8E64E0F8DC010F6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Passover HagadahUITests";
+			productName = "Pods-Passover HagadahUITests";
+			productReference = 3852FFDEFCD4FA690BA38F1F4C447CA5 /* Pods_Passover_HagadahUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2F2FFA51CFCFEF1EF4E071D90A697DC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A74F3BF7D7F5FD1CDDCAEBB0FB6891A4 /* Pods-Passover Hagadah */,
+				1F08E1CF015CD2F80798CD7734362F84 /* Pods-Passover HagadahTests */,
+				D670B2EFA35AF1AD01FE5C0A2D6E5EED /* Pods-Passover HagadahUITests */,
+				756B296F4D535DC62FB5D46C5E107877 /* SwiftyGif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63E34C24A6A05275A0FAAA94DDCC7F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BD4B548A4887D5D9F4B9849732A6E5 /* Pods-Passover HagadahTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEA4A946377A76D30A2D177FBD36E12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224202D2945B0B6E55BC3423B9C07863 /* Pods-Passover Hagadah-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81F6CD1A5BD1110A8B6DF2B0AE2A0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCF17BF4A096FBBFBB554C9A4153835 /* Info.plist in Sources */,
+				A39A5F057F5126E4DA8F388D6D03EDB3 /* SwiftyGif-dummy.m in Sources */,
+				F1E9BB37FC07EC24FF4B101372F79368 /* SwiftyGifManager.swift in Sources */,
+				7FFFD6166FD69DF095375F47D69FFF7B /* UIImage+SwiftyGif.swift in Sources */,
+				354A08249DBC049EFC264108F1862688 /* UIImageView+SwiftyGif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5A626902505EAB6241672566F065B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FDD931346F1770D971C5147DD09DCD /* Pods-Passover HagadahUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6718A439AFA392A9C1C74435DBC7588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 756B296F4D535DC62FB5D46C5E107877 /* SwiftyGif */;
+			targetProxy = 96B7E7431BB2B9FF73E95796F8887909 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F55E0B17678473D412725F732842F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08BE6B50DE4670F953CC8365423038DC /* Pods-Passover Hagadah.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Passover Hagadah/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Passover Hagadah/Pods-Passover Hagadah.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Passover_Hagadah;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3068AF6DFDB2CBD8B3C01486C1207882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE1851B8B90A92471068E967B9AFF974 /* Pods-Passover HagadahTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Passover HagadahTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Passover HagadahTests/Pods-Passover HagadahTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Passover_HagadahTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58021073791C0169A67CB3E6D99CA634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFCC93AD920E2B3C5BE280903A23E19B /* Pods-Passover Hagadah.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Passover Hagadah/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Passover Hagadah/Pods-Passover Hagadah.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Passover_Hagadah;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71292E87C58DD8977D5061B71D512370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB807A436138D75B6317406377CDF359 /* Pods-Passover HagadahUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Passover HagadahUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Passover HagadahUITests/Pods-Passover HagadahUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Passover_HagadahUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		891688C00D723F3D2FFF456A24DB92F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77599DC5F67291CFD242D3A5D6FB7E71 /* SwiftyGif.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97A49A8956D7BF70E203A72785C35BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77599DC5F67291CFD242D3A5D6FB7E71 /* SwiftyGif.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6C37302E5B0B99DE3744AAB95F0F2B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E26AC2D71709B28F945DC879DBCD0E /* Pods-Passover HagadahTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Passover HagadahTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Passover HagadahTests/Pods-Passover HagadahTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Passover_HagadahTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB0FD54BA7031699D89AE3978DB58AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83638583840ECC97C5B230C7BFD4934 /* Pods-Passover HagadahUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Passover HagadahUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Passover HagadahUITests/Pods-Passover HagadahUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Passover_HagadahUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4A761827C10F6FCDF4994085E958EB /* Build configuration list for PBXNativeTarget "Pods-Passover HagadahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB0FD54BA7031699D89AE3978DB58AF /* Debug */,
+				71292E87C58DD8977D5061B71D512370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9C13B2828CB58C6EBF954E2DF213F0 /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891688C00D723F3D2FFF456A24DB92F3 /* Debug */,
+				97A49A8956D7BF70E203A72785C35BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A182B099DBF858576D8F3DAB08B8A10F /* Build configuration list for PBXNativeTarget "Pods-Passover Hagadah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58021073791C0169A67CB3E6D99CA634 /* Debug */,
+				0F55E0B17678473D412725F732842F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD54EEA7B7B3010B01090502777ABDD7 /* Build configuration list for PBXNativeTarget "Pods-Passover HagadahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C37302E5B0B99DE3744AAB95F0F2B9 /* Debug */,
+				3068AF6DFDB2CBD8B3C01486C1207882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

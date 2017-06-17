@@ -1,0 +1,224 @@
+body{
+	background-image: url(karpas.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+*:not(input):not(textarea) {
+    -webkit-user-select: none; /* disable selection/Copy of UIWebView */
+    -webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
+}
+
+.popup img{
+    width: 150%;
+    float: right;
+    visibility: hidden;
+}
+
+.popup:active > img{
+    visibility: visible;
+}
+
+.popup:active{
+z-index: 10;
+}
+
+#karpas{
+	width: 100%
+	height: 100%;
+}
+
+#parsley{
+	width: 47%;
+	height: 345px;
+	float: left;
+	background-image: url(parsley-1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 6%;
+}
+
+#parsley img{
+    width:90%;
+    position: absolute;
+    left: 10%;
+    top:7%;
+	
+}
+
+#radish{
+	width: 18%;
+	height: 150px;
+	position: absolute;
+	float: left;
+	top: 6%;
+	left: 24%;
+	background-image: url(radish-1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#radish:active{
+	background-image: url(radish-2.gif);
+	z-index: 10;	
+}
+
+#onion{
+	width: 22%;
+	height: 230px;
+	position: absolute;
+	float: left;
+	left: 37%;
+	background-image: url(onion-1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#onion:active{
+	background-image: url(onion-2.png);
+	z-index: 10;	
+}
+
+#celery{
+	width: 42%;
+	height: 290px;
+	position: absolute;
+	float: left;
+	left: 56%;
+    top:-2%;
+	background-image: url(celery-1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#celery img{
+    width:75%;
+    position: absolute;
+    top: 45%;
+    left: 26%;
+}
+
+
+#banana{
+	width: 40%;
+	height: 300px;
+	float: left;
+	position: absolute;
+	top: 28%;
+    left: -4%;
+    z-index: 20;
+	background-image: url(banana-1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+#banana img{
+    width: 90%;
+    position: absolute;
+    left: 105px;
+    top: -105px;
+}
+
+
+#strawberry{
+	width: 14%;
+	height: 120px;
+	float: left;
+	position: absolute;
+	top: 68%;
+	left: 3%;
+	background-image: url(strawberry-1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: -15px;
+}
+
+#strawberry:active{
+	background-image: url(strawberry-2.png);
+	z-index: 10;	
+}
+
+#charoset{
+	width: 25%;
+	height: 16%;
+	float: left;
+	position: absolute;
+	top: 78%;
+	left: 10%;
+	background-image: url(kcharoset-1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+   
+}
+#charoset img{
+    width: 100%;
+    position:absolute;
+    top:-102%;
+}
+
+#charoset:active{
+	z-index: 22;
+}
+
+#potato{
+	width: 17%;
+	height: 170px;
+	float: left;
+	position: absolute;
+	top: 27%;
+	left: 81%;
+	background-image: url(potato-1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#potato:active{
+	background-image: url(potato-2.png);
+}
+
+#beet{
+	width: 27%;
+	height: 467px;
+	float: left;
+	position: absolute;
+	top: 11%;
+	left: 73.5%;
+	background-image: url(beet-1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#beet:active{
+	background-image: url(beet-2.png);	
+	z-index: 10;	
+
+}
+
+#water{
+	width: 26%;
+	height: 180px;
+	float: left;
+	position: absolute;
+	top: 70%;
+	left: 70%;
+	background-image: url(water-1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#water:active{
+	background-image: url(water-2.gif);	
+}

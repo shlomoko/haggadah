@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+ <meta charset="UTF-8">
+ <title>מה נשתנה</title>
+
+ <link rel="stylesheet" href="manishtana.css">
+</head>
+
+<body id="body">
+
+<div id="hebrew">
+</div>
+
+<div id="english">
+</div>
+
+<div id="spanish">
+</div>
+
+<div id="french">
+</div>
+
+<div id="yiddish">
+</div>
+</body>
+
+<body onload="document.body.classList.add('loaded')">
+
+<script language="javascript">
+
+  document.getElementById("hebrew").addEventListener("click", function() {
+    document.getElementById("body").style.backgroundImage = "url(manishtana_hebrew.jpg)";
+  }, false);
+
+   document.getElementById("english").addEventListener("click", function() {
+    document.getElementById("body").style.backgroundImage = "url(manishtana_english.jpg)";
+  }, false);
+
+    document.getElementById("spanish").addEventListener("click", function() {
+    document.getElementById("body").style.backgroundImage = "url(manishtana_spanish.jpg)";
+  }, false);
+
+     document.getElementById("french").addEventListener("click", function() {
+    document.getElementById("body").style.backgroundImage = "url(manishtana_french.jpg)";
+  }, false);
+
+ document.getElementById("yiddish").addEventListener("click", function() {
+    document.getElementById("body").style.backgroundImage = "url(manishtana_yiddish.jpg)";
+  }, false);
+  </script>
+
+  </html>

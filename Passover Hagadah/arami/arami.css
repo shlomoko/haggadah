@@ -1,0 +1,535 @@
+body{
+	background-image: url(aramibg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 2670px;
+	box-sizing: border-box;
+}
+
+button{
+	background-color: transparent;
+	border-width: 0px;
+	outline: none;
+}
+
+#phrase1{
+	width: 20%;
+	height: 55px;
+	position: absolute;
+	right: 25%;
+	top: 21%;
+}
+
+#text1 img{
+	opacity: 0;
+	position: absolute;
+	width: 90%;
+	right: -122%;
+	top: 285%;
+	background-color: #ddd3b5;
+	padding-right: 15%;
+	padding-left:50%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+#phrase1:hover >#text1 img{
+	opacity:1;
+}
+
+#phrase2{
+	width: 11%;
+	height: 55px;
+	position: absolute;
+	right: 46.5%;
+	top: 21%;
+}
+
+#text2 img{
+	opacity: 0;
+	position: absolute;
+	width: 200%;
+	right: -414%;
+	top: 500%;
+	background-color: #ddd3b5;
+	padding-right: 25%;
+	padding-left:60%;
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+
+#phrase2:hover >#text2 img{
+	opacity:1;
+}
+
+#phrase3{
+	width: 17%;
+	height: 55px;
+	position: absolute;
+	left: 24%;
+	top: 21%;
+}
+
+#text3 img{
+	opacity: 0;
+	position: absolute;
+	width: 140%;
+	right: -150%;
+	top: 280%;
+	background-color: #ddd3b5;
+	padding-right: 10%;
+	padding-left:50%;
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+
+#phrase3:hover >#text3 img{
+	opacity:1
+;}
+
+#phrase4{
+	width: 19%;
+	height: 55px;
+	position: absolute;
+	right: 28%;
+	top: 29%;
+}
+
+#text4 img{
+	opacity: 0;
+	position: absolute;
+	width: 140%;
+	right: 33%;
+	top: 510%;
+	background-color: #ddd3b5;
+	padding-right: 2%;
+	padding-left:35%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+#phrase4:hover >#text4 img{
+	opacity:1;
+}
+
+#phrase5{
+	width: 15%;
+	height: 55px;
+	position: absolute;
+	right: 48%;
+	top: 30%;
+}
+
+#text5 img{
+	opacity: 0;
+	position: absolute;
+	width: 155%;
+	right: -92%;
+	top: 670%;
+	background-color: #ddd3b5;
+	padding-right: 10%;
+	padding-left:60%;
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+
+#phrase5:hover >#text5 img{
+	opacity:1;
+}
+
+#phrase6{
+	width:9%;
+	height: 55px;
+	position: absolute;
+	left: 263px;
+	top: 30%;
+}
+
+#text6 img{
+	opacity: 0;
+	position: absolute;
+	width: 220%;
+	left: -285%;
+	top: 175%;
+	background-color: #ddd3b5;
+	padding-right: 18%;
+	padding-left:130%;
+	padding-top: 3%;
+	padding-bottom: 90%;
+}
+
+#phrase6:hover >#text6 img{
+	opacity:1;
+}
+
+#vayaanunu{
+	height:18%;
+	width: 100%;
+	position: relative;
+	top: 28%
+}
+
+#phrase7{
+	width: 37%;
+	height: 65px;
+	position: absolute;
+	right: 25%;
+	top: 10%;
+}
+
+#text7 img{
+	opacity: 0;
+	position: absolute;
+	width: 80%;
+	right: -57%;
+	top: 300%;
+	background-color: #ddd3b5;
+	padding-right: 3%;
+	padding-left:10%;
+	padding-top: 3%;
+	padding-bottom: 10%;
+}
+
+#phrase7:hover >#text7 img{
+	opacity:1;
+}
+
+#phrase8{
+	width: 13%;
+	height: 65px;
+	position: absolute;
+	left: 23%;
+	top: 12%;
+}
+
+#text8 img{
+	opacity: 0;
+	position: absolute;
+	width: 175%;
+	right: -180%;
+	top: 275%;
+	background-color: #ddd3b5;
+	padding-right: 3%;
+	padding-left:23%;
+	padding-top: 10%;
+	padding-bottom: 40%;
+}
+
+#phrase8:hover >#text8 img{
+	opacity:1;
+}
+
+#phrase9{
+	width: 45%;
+	height: 65px;
+	position: absolute;
+	right: 27%;
+	top: 25%;
+}
+
+#text9 img{
+	opacity: 0;
+	position: absolute;
+	width: 48%;
+	left: -75%;
+	top: 180%;
+	background-color: #ddd3b5;
+	padding-right: 2%;
+	padding-left: 30%;
+	padding-top: 3%;
+	padding-bottom: 20%;
+}
+
+#phrase9:hover >#text9 img{
+	opacity:1;
+}
+
+#venitzak{
+	width: 100%;
+	height: 24%;
+	position: relative;
+	top: 31%;
+}
+
+#phrase10{
+	width: 25%;
+	height: 155px;
+	position: absolute;
+	right: 3.5%;
+	top: 9%;
+}
+
+#text10 img{
+	opacity: 0;
+	position: absolute;
+	width: 90%;
+	left: -135%;
+	top: -25%;
+	background-color: #ddd3b5;
+	padding-right: 3%;
+	padding-left: 10%;
+	padding-top: 3%;
+	padding-bottom: 20%;
+}
+
+#phrase10:hover >#text10 img{
+	opacity:1;
+}
+
+#phrase11{
+	width: 20%;
+	height: 145px;
+	position: absolute;
+	right: 3.5%;
+	top: 33%;
+}
+
+#text11 img{
+	opacity: 0;
+	position: absolute;
+	width: 105%;
+	left: -200%;
+	top: 100%;
+	background-color: #ddd3b5;
+	padding-right: 3%;
+	padding-left: 30%;
+	padding-top: 3%;
+	padding-bottom: 20%;
+}
+
+#phrase11:hover >#text11 img{
+	opacity:1;
+}
+
+#phrase12{
+	width: 25%;
+	height: 65px;
+	position: absolute;
+	right: 3.5%;
+	top: 55.5%;
+}
+
+#text12 img{
+	opacity: 0;
+	position: absolute;
+	width: 105%;
+	left: -295%;
+	top: -518%;
+	background-color: #ddd3b5;
+	padding-right: 3%;
+	padding-left: 30%;
+	padding-top: 3%;
+	padding-bottom: 20%;
+}
+
+#phrase12:hover >#text12 img{
+	opacity:1;
+}
+
+#phrase13{
+	width: 20.5%;
+	height: 65px;
+	position: absolute;
+	right: 3.5%;
+	top: 67%;
+}
+
+#text13 img{
+	opacity: 0;
+	position: absolute;
+	width: 116.5%;
+	left: -365%;
+	top: -290%;
+	background-color: #ddd3b5;
+	padding-right: 3%;
+	padding-left: 30%;
+	padding-top: 3%;
+	padding-bottom: 10%;
+}
+
+#phrase13:hover >#text13 img{
+	opacity:1;
+}
+
+#phrase14{
+	width: 17%;
+	height: 65px;
+	position: absolute;
+	right: 3.5%;
+	top: 78%;
+}
+
+#text14 img{
+	opacity: 0;
+	position: absolute;
+	width: 140%;
+	left: -450%;
+	top: -100%;
+	background-color: #ddd3b5;
+	padding-right: 3%;
+	padding-left: 30%;
+	padding-top: 3%;
+	padding-bottom: 15%;
+}
+
+#phrase14:hover >#text14 img{
+	opacity:1;
+}
+
+#beyad{
+	width: 100%;
+	height: 26.5%;
+	position: relative;
+	top: 31.5%;
+}
+
+#phrase15{
+	width: 30%;
+	height: 55px;
+	position: absolute;
+	right: 3.5%;
+	top: 5%;
+}
+
+#text15 img{
+	opacity: 0;
+	width: 140%;
+	position: absolute;
+	top: 560%;
+	left: -56%;
+	background-color: #ddd3b5;
+	padding-right: 3%;
+	padding-left: 14%;
+	padding-top: 3%;
+	padding-bottom: 10%;
+}
+
+#phrase15:hover >#text15 img{
+	opacity:1;
+}
+
+#phrase16{
+	width: 16%;
+	height: 57px;
+	position: absolute;
+	right: 3.5%;
+	top: 13.5%;
+}
+
+#text16 img{
+	opacity: 0;
+	width: 235%;
+	position: absolute;
+	top: -150%;
+	left: -482%;
+	background-color: #ddd3b5;
+	padding-right: 5%;
+	padding-left: 50%;
+	padding-top: 3%;
+	padding-bottom: 10%;
+}
+
+#phrase16:hover >#text16 img{
+	opacity:1;
+}
+
+#phrase17{
+	width: 21%;
+	height: 57px;
+	position: absolute;
+	right: 20%;
+	top: 13.5%;
+}
+
+#text17 img{
+	opacity: 0;
+	width: 180%;
+	position: absolute;
+	top: 115%;
+	left: -273%;
+	background-color: #ddd3b5;
+	padding-right: 5%;
+	padding-left: 30%;
+	padding-top: 3%;
+	padding-bottom: 10%;
+}
+
+#phrase17:hover >#text17 img{
+	opacity:1;
+}
+
+#phrase18{
+	width: 22%;
+	height: 57px;
+	position: absolute;
+	right: 4%;
+	top: 22%;
+}
+
+#text18 img{
+	opacity: 0;
+	width: 180%;
+	position: absolute;
+	top: 225%;
+	left: -330%;
+	background-color: #ddd3b5;
+	padding-right: 5%;
+	padding-left: 30%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+#phrase18:hover >#text18 img{
+	opacity:1;
+}
+
+#phrase19{
+	width: 12%;
+	height: 57px;
+	position: absolute;
+	right: 24%;
+	top: 22.5%;
+}
+
+#text19 img{
+	opacity: 0;
+	width: 365%;
+	position: absolute;
+	top: 585%;
+	left: -535%;
+	background-color: #ddd3b5;
+	padding-right: 5%;
+	padding-left: 30%;
+	padding-top: 3%;
+	padding-bottom: 10%;
+}
+
+#phrase19:hover >#text19 img{
+	opacity:1;
+}
+
+#phrase20{
+	width: 14%;
+	height: 57px;
+	position: absolute;
+	right: 35%;
+	top: 22%;
+}
+
+#text20 img{
+	opacity: 0;
+	width: 310%;
+	position: absolute;
+	top: 785%;
+	left: -365%;
+	background-color: #ddd3b5;
+	padding-right: 5%;
+	padding-left: 30%;
+	padding-top: 3%;
+	padding-bottom: 10%;
+}
+
+#phrase20:hover >#text20 img{
+	opacity:1;
+}
