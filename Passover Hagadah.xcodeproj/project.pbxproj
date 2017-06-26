@@ -113,6 +113,8 @@
 		74399A601EF09C8800DB3104 /* gadya8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74399A561EF09C8800DB3104 /* gadya8.jpg */; };
 		74399A611EF09C8800DB3104 /* gadya9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74399A571EF09C8800DB3104 /* gadya9.jpg */; };
 		74399A631EF09CAA00DB3104 /* GadyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74399A621EF09CAA00DB3104 /* GadyaViewController.swift */; };
+		74436DEC1EF746AB000723D3 /* DayenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74436DEB1EF746AB000723D3 /* DayenuViewController.swift */; };
+		744ED2BF1EF73B6900CF5979 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744ED2BE1EF73B6900CF5979 /* UIViewExtension.swift */; };
 		7455E80D1ED77F76003D73D3 /* banana-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7455E7E21ED77F76003D73D3 /* banana-1.png */; };
 		7455E80E1ED77F76003D73D3 /* banana-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7455E7E31ED77F76003D73D3 /* banana-2.png */; };
 		7455E80F1ED77F76003D73D3 /* beet-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7455E7E41ED77F76003D73D3 /* beet-1.png */; };
@@ -156,6 +158,12 @@
 		7455E8391ED780F7003D73D3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7455E8381ED780F7003D73D3 /* MainViewController.swift */; };
 		7455E83B1ED855AE003D73D3 /* ShfochViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7455E83A1ED855AE003D73D3 /* ShfochViewController.swift */; };
 		7455E83D1ED8564D003D73D3 /* YachatzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7455E83C1ED8564D003D73D3 /* YachatzViewController.swift */; };
+		745E616A1EF8823900000C1D /* blueBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 745E61691EF8823900000C1D /* blueBar.png */; };
+		745E61701EF88E6500000C1D /* barech_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 745E616C1EF88E6500000C1D /* barech_bg.jpg */; };
+		745E61711EF88E6500000C1D /* barech_cup_gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 745E616D1EF88E6500000C1D /* barech_cup_gif.gif */; };
+		745E61721EF88E6500000C1D /* barech_cup.png in Resources */ = {isa = PBXBuildFile; fileRef = 745E616E1EF88E6500000C1D /* barech_cup.png */; };
+		745E61731EF88E6500000C1D /* barechtext.png in Resources */ = {isa = PBXBuildFile; fileRef = 745E616F1EF88E6500000C1D /* barechtext.png */; };
+		745E61751EF8905800000C1D /* BarechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745E61741EF8905800000C1D /* BarechViewController.swift */; };
 		747421F71EF332BD00216713 /* UrchatzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747421F61EF332BD00216713 /* UrchatzViewController.swift */; };
 		747421FA1EF332DD00216713 /* urchatz.gif in Resources */ = {isa = PBXBuildFile; fileRef = 747421F81EF332DD00216713 /* urchatz.gif */; };
 		747421FB1EF332DD00216713 /* urchatz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 747421F91EF332DD00216713 /* urchatz.jpg */; };
@@ -179,6 +187,7 @@
 		747422221EF3459D00216713 /* 0cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 747422211EF3459D00216713 /* 0cover.jpg */; };
 		747422251EF34B7200216713 /* tzafun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 747422241EF34B7200216713 /* tzafun.jpg */; };
 		747422281EF34BED00216713 /* mainMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 747422271EF34BED00216713 /* mainMenu.jpg */; };
+		7474222A1EF5AC6F00216713 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747422291EF5AC6F00216713 /* MenuViewController.swift */; };
 		747E4F131EF1CC3E00017C06 /* whoknows1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 747E4F061EF1CC3E00017C06 /* whoknows1.jpg */; };
 		747E4F141EF1CC3E00017C06 /* whoknows2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 747E4F071EF1CC3E00017C06 /* whoknows2.jpg */; };
 		747E4F151EF1CC3E00017C06 /* whoknows3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 747E4F081EF1CC3E00017C06 /* whoknows3.jpg */; };
@@ -209,6 +218,12 @@
 		74B0C8BF1ECBA61200E7E9FD /* Passover_HagadahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B0C8BE1ECBA61200E7E9FD /* Passover_HagadahUITests.swift */; };
 		74B0C8CD1ECBA7FA00E7E9FD /* mainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B0C8CC1ECBA7FA00E7E9FD /* mainPageViewController.swift */; };
 		74B0C8D01ECBAAE900E7E9FD /* KadeshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B0C8CF1ECBAAE900E7E9FD /* KadeshViewController.swift */; };
+		74B1F0A71EF5E37700EED4CA /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1F0A61EF5E37700EED4CA /* ViewControllerExtension.swift */; };
+		74B1F0A91EF5E97B00EED4CA /* popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B1F0A81EF5E97B00EED4CA /* popup.png */; };
+		74B1F0AB1EF5E9BC00EED4CA /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1F0AA1EF5E9BC00EED4CA /* PopupViewController.swift */; };
+		74C503771EFEFD5F00739A9B /* hallel_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C503751EFEFD5F00739A9B /* hallel_text.png */; };
+		74C503781EFEFD5F00739A9B /* hallelbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74C503761EFEFD5F00739A9B /* hallelbg.jpg */; };
+		74C5037A1EFEFDC200739A9B /* HallelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C503791EFEFDC200739A9B /* HallelViewController.swift */; };
 		74EC75C01EE7393F009E06D4 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC75BF1EE7393F009E06D4 /* UIImage+Gif.swift */; };
 		74EC75C21EE74416009E06D4 /* matzasml.gif in Resources */ = {isa = PBXBuildFile; fileRef = 74EC75C11EE74416009E06D4 /* matzasml.gif */; };
 		DDFD3403E43B2BEB7DA5823F /* Pods_Passover_HagadahTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44ABD442A0009169C83DF5D7 /* Pods_Passover_HagadahTests.framework */; };
@@ -339,6 +354,8 @@
 		74399A561EF09C8800DB3104 /* gadya8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gadya8.jpg; sourceTree = "<group>"; };
 		74399A571EF09C8800DB3104 /* gadya9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gadya9.jpg; sourceTree = "<group>"; };
 		74399A621EF09CAA00DB3104 /* GadyaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GadyaViewController.swift; sourceTree = "<group>"; };
+		74436DEB1EF746AB000723D3 /* DayenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayenuViewController.swift; sourceTree = "<group>"; };
+		744ED2BE1EF73B6900CF5979 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		7455E7E21ED77F76003D73D3 /* banana-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banana-1.png"; sourceTree = "<group>"; };
 		7455E7E31ED77F76003D73D3 /* banana-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banana-2.png"; sourceTree = "<group>"; };
 		7455E7E41ED77F76003D73D3 /* beet-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beet-1.png"; sourceTree = "<group>"; };
@@ -382,6 +399,12 @@
 		7455E8381ED780F7003D73D3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7455E83A1ED855AE003D73D3 /* ShfochViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShfochViewController.swift; sourceTree = "<group>"; };
 		7455E83C1ED8564D003D73D3 /* YachatzViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YachatzViewController.swift; sourceTree = "<group>"; };
+		745E61691EF8823900000C1D /* blueBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBar.png; sourceTree = "<group>"; };
+		745E616C1EF88E6500000C1D /* barech_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barech_bg.jpg; sourceTree = "<group>"; };
+		745E616D1EF88E6500000C1D /* barech_cup_gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = barech_cup_gif.gif; sourceTree = "<group>"; };
+		745E616E1EF88E6500000C1D /* barech_cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barech_cup.png; sourceTree = "<group>"; };
+		745E616F1EF88E6500000C1D /* barechtext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barechtext.png; sourceTree = "<group>"; };
+		745E61741EF8905800000C1D /* BarechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarechViewController.swift; sourceTree = "<group>"; };
 		747421F61EF332BD00216713 /* UrchatzViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrchatzViewController.swift; sourceTree = "<group>"; };
 		747421F81EF332DD00216713 /* urchatz.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = urchatz.gif; sourceTree = "<group>"; };
 		747421F91EF332DD00216713 /* urchatz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = urchatz.jpg; sourceTree = "<group>"; };
@@ -405,6 +428,7 @@
 		747422211EF3459D00216713 /* 0cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0cover.jpg; sourceTree = "<group>"; };
 		747422241EF34B7200216713 /* tzafun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tzafun.jpg; sourceTree = "<group>"; };
 		747422271EF34BED00216713 /* mainMenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainMenu.jpg; sourceTree = "<group>"; };
+		747422291EF5AC6F00216713 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		747E4F061EF1CC3E00017C06 /* whoknows1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whoknows1.jpg; sourceTree = "<group>"; };
 		747E4F071EF1CC3E00017C06 /* whoknows2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whoknows2.jpg; sourceTree = "<group>"; };
 		747E4F081EF1CC3E00017C06 /* whoknows3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whoknows3.jpg; sourceTree = "<group>"; };
@@ -441,6 +465,12 @@
 		74B0C8C01ECBA61200E7E9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74B0C8CC1ECBA7FA00E7E9FD /* mainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainPageViewController.swift; sourceTree = "<group>"; };
 		74B0C8CF1ECBAAE900E7E9FD /* KadeshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KadeshViewController.swift; sourceTree = "<group>"; };
+		74B1F0A61EF5E37700EED4CA /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		74B1F0A81EF5E97B00EED4CA /* popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popup.png; sourceTree = "<group>"; };
+		74B1F0AA1EF5E9BC00EED4CA /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		74C503751EFEFD5F00739A9B /* hallel_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hallel_text.png; sourceTree = "<group>"; };
+		74C503761EFEFD5F00739A9B /* hallelbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hallelbg.jpg; sourceTree = "<group>"; };
+		74C503791EFEFDC200739A9B /* HallelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HallelViewController.swift; sourceTree = "<group>"; };
 		74EC75BE1EE73842009E06D4 /* Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
 		74EC75BF1EE7393F009E06D4 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		74EC75C11EE74416009E06D4 /* matzasml.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = matzasml.gif; sourceTree = "<group>"; };
@@ -610,6 +640,7 @@
 		74399A081EF08CA700DB3104 /* dayenu */ = {
 			isa = PBXGroup;
 			children = (
+				745E61691EF8823900000C1D /* blueBar.png */,
 				74399A091EF08CA700DB3104 /* dayenu1.png */,
 				74399A0A1EF08CA700DB3104 /* dayenu2.png */,
 				74399A0B1EF08CA700DB3104 /* dayenu3.png */,
@@ -617,6 +648,7 @@
 				74399A0D1EF08CA700DB3104 /* dayenu5.png */,
 				74399A0E1EF08CA700DB3104 /* dayenu6.png */,
 				747E4F221EF1CEB600017C06 /* dayenutext.png */,
+				74436DEB1EF746AB000723D3 /* DayenuViewController.swift */,
 			);
 			path = dayenu;
 			sourceTree = "<group>";
@@ -726,6 +758,18 @@
 			path = yachatz;
 			sourceTree = "<group>";
 		};
+		745E616B1EF88E6500000C1D /* barech */ = {
+			isa = PBXGroup;
+			children = (
+				745E616C1EF88E6500000C1D /* barech_bg.jpg */,
+				745E616D1EF88E6500000C1D /* barech_cup_gif.gif */,
+				745E616E1EF88E6500000C1D /* barech_cup.png */,
+				745E616F1EF88E6500000C1D /* barechtext.png */,
+				745E61741EF8905800000C1D /* BarechViewController.swift */,
+			);
+			path = barech;
+			sourceTree = "<group>";
+		};
 		747421F51EF3329900216713 /* urchatz */ = {
 			isa = PBXGroup;
 			children = (
@@ -787,6 +831,9 @@
 			isa = PBXGroup;
 			children = (
 				747422271EF34BED00216713 /* mainMenu.jpg */,
+				74B1F0A81EF5E97B00EED4CA /* popup.png */,
+				747422291EF5AC6F00216713 /* MenuViewController.swift */,
+				74B1F0AA1EF5E9BC00EED4CA /* PopupViewController.swift */,
 			);
 			name = menu;
 			sourceTree = "<group>";
@@ -838,6 +885,7 @@
 		74B0C89D1ECBA61200E7E9FD /* Passover Hagadah */ = {
 			isa = PBXGroup;
 			children = (
+				74B1F0A51EF5E35100EED4CA /* extensions */,
 				747422261EF34BDE00216713 /* menu */,
 				747422231EF34B3500216713 /* tzafoon */,
 				747422201EF3453400216713 /* cover */,
@@ -845,7 +893,9 @@
 				74EC75BF1EE7393F009E06D4 /* UIImage+Gif.swift */,
 				7455E7E11ED77F76003D73D3 /* karpas */,
 				74399A2C1EF08D0200DB3104 /* whoknowsone */,
+				745E616B1EF88E6500000C1D /* barech */,
 				7474220D1EF33DC800216713 /* 4banim */,
+				74C503741EFEFD5F00739A9B /* hallel */,
 				7455E7FA1ED77F76003D73D3 /* shfoch */,
 				7435A0DB1EF1D99900A782CE /* rachtza-korech */,
 				74399A4D1EF09C8800DB3104 /* gadya */,
@@ -895,6 +945,25 @@
 				74B0C8CF1ECBAAE900E7E9FD /* KadeshViewController.swift */,
 			);
 			name = kadesh;
+			sourceTree = "<group>";
+		};
+		74B1F0A51EF5E35100EED4CA /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74B1F0A61EF5E37700EED4CA /* ViewControllerExtension.swift */,
+				744ED2BE1EF73B6900CF5979 /* UIViewExtension.swift */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
+		74C503741EFEFD5F00739A9B /* hallel */ = {
+			isa = PBXGroup;
+			children = (
+				74C503751EFEFD5F00739A9B /* hallel_text.png */,
+				74C503761EFEFD5F00739A9B /* hallelbg.jpg */,
+				74C503791EFEFDC200739A9B /* HallelViewController.swift */,
+			);
+			path = hallel;
 			sourceTree = "<group>";
 		};
 		A28054FDCEB0286D72943826 /* Frameworks */ = {
@@ -1043,6 +1112,7 @@
 				74A8A5B91ECD00670076DDCD /* img_kadesh.png in Resources */,
 				747E4F1B1EF1CC3E00017C06 /* whoknows9.jpg in Resources */,
 				7455E82A1ED77F76003D73D3 /* 1.jpg in Resources */,
+				74C503771EFEFD5F00739A9B /* hallel_text.png in Resources */,
 				7455E8151ED77F76003D73D3 /* karpas.html in Resources */,
 				743999C81EF067A800DB3104 /* 4arov.jpg in Resources */,
 				7455E8251ED77F76003D73D3 /* shfoch.html in Resources */,
@@ -1105,6 +1175,7 @@
 				7455E81D1ED77F76003D73D3 /* radish-1.png in Resources */,
 				747E4F171EF1CC3E00017C06 /* whoknows5.jpg in Resources */,
 				747E4F151EF1CC3E00017C06 /* whoknows3.jpg in Resources */,
+				745E61721EF88E6500000C1D /* barech_cup.png in Resources */,
 				74399A101EF08CA700DB3104 /* dayenu1.png in Resources */,
 				74399A041EF07EE500DB3104 /* text8.png in Resources */,
 				740FF59B1ED86A7900DE5A3F /* license.txt in Resources */,
@@ -1135,6 +1206,7 @@
 				740FF5961ED86A7900DE5A3F /* betzet.js in Resources */,
 				740FF5941ED86A7900DE5A3F /* betzet.css in Resources */,
 				740FF59F1ED86A7900DE5A3F /* water.gif in Resources */,
+				74C503781EFEFD5F00739A9B /* hallelbg.jpg in Resources */,
 				743999CC1EF067A800DB3104 /* 6boils.jpg in Resources */,
 				743999EF1EF07EE500DB3104 /* arami.html in Resources */,
 				747422251EF34B7200216713 /* tzafun.jpg in Resources */,
@@ -1186,13 +1258,16 @@
 				74399A111EF08CA700DB3104 /* dayenu2.png in Resources */,
 				747E4F1A1EF1CC3E00017C06 /* whoknows8.jpg in Resources */,
 				747421FB1EF332DD00216713 /* urchatz.jpg in Resources */,
+				745E61701EF88E6500000C1D /* barech_bg.jpg in Resources */,
 				74399A131EF08CA700DB3104 /* dayenu4.png in Resources */,
 				743999D11EF067A800DB3104 /* 9dark.gif in Resources */,
+				745E61711EF88E6500000C1D /* barech_cup_gif.gif in Resources */,
 				7474220A1EF3373600216713 /* manishtana_yiddish.jpg in Resources */,
 				7435A0FF1EF1D99900A782CE /* matza-2.png in Resources */,
 				7474221A1EF33DC800216713 /* 4sons.html in Resources */,
 				7455E8111ED77F76003D73D3 /* celery-1.png in Resources */,
 				7435A0FA1EF1D99900A782CE /* lettuce-1.png in Resources */,
+				74B1F0A91EF5E97B00EED4CA /* popup.png in Resources */,
 				743999F81EF07EE500DB3104 /* text15.png in Resources */,
 				743999CE1EF067A800DB3104 /* 7hail.jpg in Resources */,
 				7435A1041EF1D99900A782CE /* spoon-1.png in Resources */,
@@ -1200,6 +1275,7 @@
 				743999F21EF07EE500DB3104 /* text1.png in Resources */,
 				7455E8271ED77F76003D73D3 /* shfochcup.gif in Resources */,
 				7455E82F1ED77F76003D73D3 /* back.png in Resources */,
+				745E616A1EF8823900000C1D /* blueBar.png in Resources */,
 				7455E8161ED77F76003D73D3 /* karpas.jpg in Resources */,
 				74399A051EF07EE500DB3104 /* text9.png in Resources */,
 				74B0C8A41ECBA61200E7E9FD /* Main.storyboard in Resources */,
@@ -1207,6 +1283,7 @@
 				74A8A5BA1ECD00670076DDCD /* img_kadeshtext.png in Resources */,
 				747422191EF33DC800216713 /* 4sons.gif in Resources */,
 				747E4F1C1EF1CC3E00017C06 /* whoknows10.jpg in Resources */,
+				745E61731EF88E6500000C1D /* barechtext.png in Resources */,
 				747422061EF3373600216713 /* manishtana_english.jpg in Resources */,
 				7435A0CE1EF1CFEA00A782CE /* karpasstyle.css in Resources */,
 				7435A0D21EF1D65700A782CE /* shulchanorech.gif in Resources */,
@@ -1382,15 +1459,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				743999A91EF0679500DB3104 /* PlaguesViewController.swift in Sources */,
+				74C5037A1EFEFDC200739A9B /* HallelViewController.swift in Sources */,
 				7435A0D61EF1D6EF00A782CE /* ShulchanOrechViewController.swift in Sources */,
 				747421F71EF332BD00216713 /* UrchatzViewController.swift in Sources */,
 				74B0C8D01ECBAAE900E7E9FD /* KadeshViewController.swift in Sources */,
+				74B1F0AB1EF5E9BC00EED4CA /* PopupViewController.swift in Sources */,
 				74B0C89F1ECBA61200E7E9FD /* AppDelegate.swift in Sources */,
+				744ED2BF1EF73B6900CF5979 /* UIViewExtension.swift in Sources */,
 				740FF5981ED86A7900DE5A3F /* BetzetViewController.swift in Sources */,
 				74EC75C01EE7393F009E06D4 /* UIImage+Gif.swift in Sources */,
+				745E61751EF8905800000C1D /* BarechViewController.swift in Sources */,
 				74399A631EF09CAA00DB3104 /* GadyaViewController.swift in Sources */,
 				7455E83D1ED8564D003D73D3 /* YachatzViewController.swift in Sources */,
 				7435A0DA1EF1D7CF00A782CE /* EndViewController.swift in Sources */,
+				74436DEC1EF746AB000723D3 /* DayenuViewController.swift in Sources */,
+				7474222A1EF5AC6F00216713 /* MenuViewController.swift in Sources */,
 				7455E8371ED7807F003D73D3 /* KarpasViewController.swift in Sources */,
 				743999D41EF0696300DB3104 /* plagueTableViewCell.swift in Sources */,
 				74399A481EF08D6900DB3104 /* WhoKnowsOneViewController.swift in Sources */,
@@ -1398,6 +1481,7 @@
 				74399A071EF07F1E00DB3104 /* AramiViewController.swift in Sources */,
 				74B0C8CD1ECBA7FA00E7E9FD /* mainPageViewController.swift in Sources */,
 				7435A1091EF1D9D000A782CE /* RachtzaViewController.swift in Sources */,
+				74B1F0A71EF5E37700EED4CA /* ViewControllerExtension.swift in Sources */,
 				7474220C1EF3378500216713 /* MaNishtanaViewController.swift in Sources */,
 				7474221D1EF33DDE00216713 /* BanimViewController.swift in Sources */,
 				7455E8391ED780F7003D73D3 /* MainViewController.swift in Sources */,

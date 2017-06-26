@@ -8,7 +8,7 @@
 import WebKit
 import UIKit
 
-class MainViewController: UIViewController, WKNavigationDelegate, UIScrollViewDelegate {
+class MainViewController: UIViewController, WKNavigationDelegate, UIScrollViewDelegate, UIGestureRecognizerDelegate {
 
     init(resource: String) {
         super.init(nibName: nil, bundle: nil)
@@ -35,10 +35,15 @@ class MainViewController: UIViewController, WKNavigationDelegate, UIScrollViewDe
         webView.scrollView.delegate = self
         webView.scrollView.bounces = false
         webView.loadFileURL(fileURL, allowingReadAccessTo: fileURL)
+        webView.scrollView.decelerationRate = UIScrollViewDecelerationRateNormal
         self.view.addSubview(webView)
         self.view.sendSubview(toBack: webView)
+        
+        
+
         // Do any additional setup after loading the view.
     }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -60,5 +65,9 @@ class MainViewController: UIViewController, WKNavigationDelegate, UIScrollViewDe
         scrollView.pinchGestureRecognizer?.isEnabled = false
     }
     
+    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer,
+                           shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+        return true
+    }
     
 }

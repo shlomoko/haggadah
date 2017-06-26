@@ -1,32 +1,40 @@
 //
-//  KadeshViewController.swift
+//  HallelViewController.swift
 //  Passover Hagadah
 //
-//  Created by Shana on 17/05/2017.
+//  Created by Shana on 24/06/2017.
 //  Copyright © 2017 Shana. All rights reserved.
 //
-import WebKit
+
 import UIKit
 
-class KadeshViewController: UIViewController, UIScrollViewDelegate {
+class HallelViewController: UIViewController, UIScrollViewDelegate {
+
     @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var textPic: UIImageView!
-    @IBOutlet weak var winepic: UIImageView!
-    
     @IBOutlet weak var backgroundView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollView.delegate = self
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view.
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        winepic.setY(y: scrollView.contentOffset.y * 2 - 100)
         backgroundView.frame.origin.y = scrollView.contentOffset.y
     }
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
 }

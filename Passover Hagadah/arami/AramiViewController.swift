@@ -21,7 +21,10 @@ class AramiViewController: MainViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let tap = UITapGestureRecognizer(target: self, action: #selector(doubleTapped))
+        tap.delegate = self
+        tap.numberOfTapsRequired = 2
+        webView.scrollView.addGestureRecognizer(tap)
         // Do any additional setup after loading the view.
     }
 

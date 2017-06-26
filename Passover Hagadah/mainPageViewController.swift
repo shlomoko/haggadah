@@ -10,10 +10,6 @@
 
 import UIKit
 
-protocol menuDelegate {
-    func moveToPage(page: Int)
-}
-
 class mainPageViewController: UIPageViewController {
     
     override func viewDidLoad() {
@@ -26,6 +22,9 @@ class mainPageViewController: UIPageViewController {
                                animated: true,
                                completion: nil)
         }
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(mainPageViewController.moveToPage(notification:)), name: Notification.Name("menuNotification"), object: nil)
+
     }
     
     override func didReceiveMemoryWarning() {
@@ -38,20 +37,24 @@ class mainPageViewController: UIPageViewController {
             self.newViewController(webPage: "End"),
             self.newViewController(webPage: "Gadya"),
             self.newViewController(webPage: "WhoKnowsOne"),
-            self.newViewController(webPage: "Shfoch"),
+            self.newViewController(webPage: "Shfoch"),//3
+            self.newViewController(webPage: "Hallel"),
             /*self.newViewController(webPage: "Betzet"),*/
+            self.newViewController(webPage: "Barech"),
             self.newViewController(webPage: "Tzafoon"),
             self.newViewController(webPage: "ShulchanOrech"),
-            self.newViewController(webPage: "Rachtza"),
+            self.newViewController(webPage: "Rachtza"),//8
+            self.newViewController(webPage: "Dayenu"),
             self.newViewController(webPage: "Plagues"),
-            self.newViewController(webPage: "Banim"),
-            self.newViewController(webPage: "MaNishtana"),
+            self.newViewController(webPage: "Banim"),//11
             self.newViewController(webPage: "Arami"),
+            self.newViewController(webPage: "MaNishtana"),
             self.newViewController(webPage: "Yachatz"),
-            self.newViewController(webPage: "Karpas"),
+            self.newViewController(webPage: "Karpas"),//15
             self.newViewController(webPage: "Urchatz"),
             self.newViewController(webPage: "Kadesh"),
-            self.newViewController(webPage: "Cover")]
+            self.newViewController(webPage: "Menu"),
+            self.newViewController(webPage: "Cover")]//19
     }()
     
     private func newViewController(webPage: String) -> UIViewController {
@@ -115,12 +118,12 @@ extension mainPageViewController: UIPageViewControllerDataSource {
     
 }
 
-extension mainPageViewController: menuDelegate {
-    func moveToPage(page: Int) {
-        self.setViewControllers([orderedViewControllers[page]], direction: UIPageViewControllerNavigationDirection.forward, animated: true) { _ in
+extension mainPageViewController {
+    func moveToPage(notification: NSNotification) {
+        self.setViewControllers([orderedViewControllers[notification.object as! Int]], direction: UIPageViewControllerNavigationDirection.forward, animated: true) { _ in
             
             DispatchQueue.main.async(execute: {
-                self.setViewControllers([self.orderedViewControllers[page]], direction: UIPageViewControllerNavigationDirection.forward, animated: false, completion: nil)
+                self.setViewControllers([self.orderedViewControllers[notification.object as! Int]], direction: UIPageViewControllerNavigationDirection.forward, animated: false, completion: nil)
             })
         }
     }
